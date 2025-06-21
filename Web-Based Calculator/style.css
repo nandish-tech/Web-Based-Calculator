@@ -1,0 +1,70 @@
+/* Set full-page background image */
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('img1.jpg'); /* Ensure image is in the correct path */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  text-align: center;
+  padding-top: 50px;
+  color: #333;
+}
+
+/* Calculator box style */
+.calculator {
+  background-color: white;
+  display: inline-block;
+  padding: 30px;
+  border-radius: 10px;
+  margin-top: 10%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+/* Hover effect for calculator box */
+.calculator:hover {
+  transition: 1s;
+  background: navajowhite;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  transform: translateY(5px);
+}
+
+/* Input box styling */
+input {
+  width: 200px;
+  padding: 10px;
+  margin: 10px;
+  font-size: 16px;
+}
+
+/* Button base style */
+button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* Button hover effect */
+button:hover {
+  background-color: #45a049;
+}
+
+/* Link styling */
+a {
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+/* Link hover effect */
+a:hover {
+  color: #007BFF;
+  text-decoration: underline;
+}
